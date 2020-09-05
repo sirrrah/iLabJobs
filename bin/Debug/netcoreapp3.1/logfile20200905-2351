@@ -1,0 +1,7 @@
+2020-09-05 23:51:47,185 INFO ++++++++++++++++++++++++++++++++++++++
+2020-09-05 23:51:47,196 INFO +                                     TestCase_01                                   +
+2020-09-05 23:51:47,196 INFO ++++++++++++++++++++++++++++++++++++++
+2020-09-05 23:51:50,390 INFO new driver instantiated
+2020-09-05 23:51:50,410 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-05 23:51:58,119 INFO Web application launched
+2020-09-05 23:51:58,187 INFO careers link is found on the Home Page

@@ -1,0 +1,25 @@
+2020-09-05 23:28:23,022 INFO new driver instantiated
+2020-09-05 23:28:23,060 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-05 23:28:30,031 INFO Web application launched
+2020-09-05 23:28:30,033 INFO ****************************************************************************************
+2020-09-05 23:28:30,035 INFO ****************************************************************************************
+2020-09-05 23:28:30,036 INFO $$$$$$$$$$$$$$$$$$$$$                 .TestCase_01       $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-09-05 23:28:30,037 INFO ****************************************************************************************
+2020-09-05 23:28:30,038 INFO ****************************************************************************************
+2020-09-05 23:28:30,126 INFO careers link is found on the Home Page
+2020-09-05 23:28:31,701 INFO link careers clicked from Home page
+2020-09-05 23:28:32,097 INFO 'South Africa' link is found on the Careers Page
+2020-09-05 23:28:33,885 INFO link South Africa clicked from Careers page
+2020-09-05 23:28:34,088 INFO First job post link is found on the Job Lists Page
+2020-09-05 23:28:35,651 INFO 1st job link clicked from South Africa jobs page
+2020-09-05 23:28:35,945 INFO 'Apply Online' button is found on the job Page
+2020-09-05 23:28:37,944 INFO 'Apply Online' button clicked from the job post page
+2020-09-05 23:28:38,444 INFO applicant name input field is found on the job Page
+2020-09-05 23:28:38,753 INFO Sihle is entered in the applicant name field
+2020-09-05 23:28:38,804 INFO email input field is found on the job Page
+2020-09-05 23:28:39,084 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-05 23:28:39,141 INFO phone number input field is found on the job Page
+2020-09-05 23:28:39,293 INFO 083 364 5403 is entered on applicant name field
+2020-09-05 23:28:39,404 INFO send button is found on the job Page
+2020-09-05 23:28:39,602 INFO button 'SEND APPLICATION' clicked
+2020-09-05 23:28:41,288 INFO Error message item(s) found

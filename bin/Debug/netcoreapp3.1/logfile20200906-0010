@@ -1,0 +1,19 @@
+2020-09-06 00:10:01,348 INFO Web application launched
+2020-09-06 00:10:01,417 INFO careers link is found on the Home Page
+2020-09-06 00:10:03,286 INFO link careers clicked from Home page
+2020-09-06 00:10:04,185 INFO 'South Africa' link is found on the Careers Page
+2020-09-06 00:10:07,043 INFO link South Africa clicked from Careers page
+2020-09-06 00:10:07,067 INFO First job post link is found on the Job Lists Page
+2020-09-06 00:10:08,919 INFO 1st job link clicked from South Africa jobs page
+2020-09-06 00:10:09,306 INFO 'Apply Online' button is found on the job Page
+2020-09-06 00:10:09,871 INFO 'Apply Online' button clicked from the job post page
+2020-09-06 00:10:10,490 INFO applicant name input field is found on the job Page
+2020-09-06 00:10:10,593 INFO Sihle is entered in the applicant name field
+2020-09-06 00:10:10,613 INFO email input field is found on the job Page
+2020-09-06 00:10:10,920 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-06 00:10:10,955 INFO phone number input field is found on the job Page
+2020-09-06 00:10:11,144 INFO 088 907 7542 is entered on applicant name field
+2020-09-06 00:10:11,187 INFO send button is found on the job Page
+2020-09-06 00:10:14,025 INFO button 'SEND APPLICATION' clicked
+2020-09-06 00:10:14,067 INFO Error message item(s) found
+2020-09-06 00:10:14,105 INFO ****************************             -E-N-D-             ****************************
