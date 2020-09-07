@@ -11,11 +11,13 @@ namespace iLabJobs.actions
             JobPost.Button_ApplyOnline().Click();
             Log.Info("'Apply Online' button clicked from the job post page");
 
-            JobPost.Textbox_ApplicantName().SendKeys("Sihle");
-            Log.Info("Sihle is entered in the applicant name field");
+            string name = Constant.NAME;
+            JobPost.Textbox_ApplicantName().SendKeys(name);
+            Log.Info(name + " is entered in the applicant name field");
 
-            JobPost.Textbox_Email().SendKeys("automationAssessment@iLABQuality.com");
-            Log.Info("automationAssessment@iLABQuality.com is entered in the email field");
+            string email = Constant.EMAIL;
+            JobPost.Textbox_Email().SendKeys(email);
+            Log.Info(email + " is entered in the email field");
 
             string phone = AutoPhoneNumber();
             JobPost.Textbox_Phone().SendKeys(phone);
@@ -25,8 +27,10 @@ namespace iLabJobs.actions
             Log.Info("button 'SEND APPLICATION' clicked");
         }
 
+        // Auto-generates a 10 digit phone number, format: 083 568 7859
         private static string AutoPhoneNumber()
         {
+            Log.Info("Generating phone number...");
             string num = "0";
             Random rnd = new Random();
             for (int a = 0; a < 11; a++)

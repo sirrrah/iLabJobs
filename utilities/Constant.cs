@@ -1,30 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using iLabJobs.tests;
 
 namespace iLabJobs.utilities
 {
     class Constant
     {
-		public static readonly String URL = "https://www.ilabquality.com";
-		public static readonly String Path_TestData = "D://ToolsQA//OnlineStore//src//testData//";
-		public static readonly String File_TestData = "TestData.xlsx";
+
+		public static readonly string URL = "https://www.ilabquality.com";
+		public static readonly string FILE_TEST_DATA = @"A:\Work\Visual Studio\iLabJobs\Data\test_data.xlsx";
+        
+		//Get data sheet row number to use
+        static readonly int  Row = TestCase_01.TestCaseRow; 
+		//Test Data Sheet dataset
+        public static readonly string TEST_CASE_NAME = ExcelDataIO.ReadData(Row, "Test Case Name");
+        public static readonly string BROWSER = ExcelDataIO.ReadData(Row, "Browser");
+		public static readonly string NAME = ExcelDataIO.ReadData(Row, "Full Name");
+		public static readonly string EMAIL = ExcelDataIO.ReadData(Row, "Email");
+		public static readonly string TEST_DATE = ExcelDataIO.ReadData(Row, "Test Datetime");
+		public static readonly string RESULT = ExcelDataIO.ReadData(Row, "Result");
+		public static readonly string PATH_SCREENSHOT = "D://ToolsQA//OnlineStore//src//Screenshots//";
 		
-		//Test Data Sheet Columns
-		public static readonly int col_TestCaseName = 0;
-		public static readonly int col_Username = 1;
-		public static readonly int col_Password = 2;
-		public static readonly int col_Browser = 3;
-		public static readonly int col_ProductType = 4;
-		public static readonly int col_ProductNumber = 5;
-		public static readonly int col_FirstName = 6;
-		public static readonly int col_LastName = 7;
-		public static readonly int col_Address = 8;
-		public static readonly int col_City = 9;
-		public static readonly int col_Country = 10;
-		public static readonly int col_Phone = 11;
-		public static readonly int col_Email = 12;
-		public static readonly int col_Result = 13;
-		public static readonly String Path_Screenshot = "D://ToolsQA//OnlineStore//src//Screenshots//";
+        //Test Data Sheet columns
+		public static readonly int COLUMN_RESULT = 6;
     }
 }

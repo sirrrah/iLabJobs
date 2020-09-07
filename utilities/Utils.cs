@@ -8,9 +8,10 @@ namespace iLabJobs.utilities
     class Utils
     {
         public static IWebDriver driver;
-        public static IWebDriver OpenBrowser(string browser)
+
+        public static IWebDriver OpenBrowser()
         {
-            //browser = ExcelFactory.getData();
+            string browser = Constant.BROWSER.ToString();
             try 
             { 
                 driver = (browser.ToLower()) switch
@@ -22,7 +23,7 @@ namespace iLabJobs.utilities
                     //Opens Microsoft Edge but returns 'Unexpected error'
                     //"edge" => new EdgeDriver(),
                     //Default browser is Chrome
-                    _ => OpenBrowser("chrome"),
+                    _ => new ChromeDriver(),
                 };
                 Log.Info("new driver instantiated");
             
@@ -31,12 +32,14 @@ namespace iLabJobs.utilities
             
                 driver.Navigate().GoToUrl(Constant.URL);
                 Log.Info("Web application launched");
+                
+                return driver;
             }
             catch (Exception e)
             {
 			    Log.Error("Class Utils | Method OpenBrowser | Exception desc : " + e.Message);
+                throw e;
 		    }
-            return driver;
         }
 
         internal static string GetTestCaseName(string tc_name)
@@ -44,12 +47,13 @@ namespace iLabJobs.utilities
             try
             {
                 tc_name = tc_name.Substring(tc_name.LastIndexOf(".") + 1);
+                return tc_name;
             }
             catch (Exception e)
             {
                 Log.Error("Class Utils | Method OpenBrowser | Exception desc : " + e.Message);
+                throw e;
             }
-            return tc_name;
 
         }
 

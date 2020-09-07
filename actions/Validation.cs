@@ -1,5 +1,5 @@
 ﻿using iLabJobs.pages;
-using NUnit.Framework;
+using iLabJobs.utilities;
 
 namespace iLabJobs.actions
 {
@@ -9,11 +9,12 @@ namespace iLabJobs.actions
         {
             if(JobPost.Error_UploadFile().Text.Contains("You need to upload at least one file."))
             {
-                Assert.IsTrue(true);
                 BaseClass.TestResult = true;
+                Log.Info("test results set to PASSED!");
             } else
             {
                 BaseClass.TestResult = false;
+                Log.Info("test results set to FAILED!");
             }
         }
     }

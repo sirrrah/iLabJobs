@@ -1,14 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\actions",
-    "\\Local settings (.vs)",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\netcoreapp3.1",
+    "\\bin\\Debug\\netcoreapp3.1\\runtimes",
+    "\\bin\\Debug\\netcoreapp3.1\\runtimes\\win",
+    "\\bin\\Debug\\netcoreapp3.1\\runtimes\\win\\lib",
+    "\\bin\\Debug\\netcoreapp3.1\\runtimes\\win\\lib\\netcoreapp2.0",
     "\\Local settings (.vs)\\iLabJobs",
-    "\\Local settings (.vs)\\iLabJobs\\DesignTimeBuild",
-    "\\pages",
-    "\\tests",
-    "\\utilities"
+    "\\Local settings (.vs)\\iLabJobs\\DesignTimeBuild"
   ],
-  "SelectedNode": "\\tests\\TestCase_01.cs",
   "PreviewInSolutionExplorer": false
 }

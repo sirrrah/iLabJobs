@@ -1,0 +1,22 @@
+2020-09-07 11:30:02,121 INFO new driver instantiated
+2020-09-07 11:30:02,129 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-07 11:30:09,272 INFO Web application launched
+2020-09-07 11:30:09,301 INFO careers link is found on the Home Page
+2020-09-07 11:30:12,326 INFO link careers clicked from Home page
+2020-09-07 11:30:12,340 INFO 'South Africa' link is found on the Careers Page
+2020-09-07 11:30:13,971 INFO link South Africa clicked from Careers page
+2020-09-07 11:30:14,131 INFO First job post link is found on the Job Lists Page
+2020-09-07 11:30:15,721 INFO first job link clicked from South Africa jobs page
+2020-09-07 11:30:15,892 INFO 'Apply Online' button is found on the job Page
+2020-09-07 11:30:17,627 INFO 'Apply Online' button clicked from the job post page
+2020-09-07 11:30:17,812 INFO applicant name input field is found on the job Page
+2020-09-07 11:30:17,870 INFO Sihle is entered in the applicant name field
+2020-09-07 11:30:17,879 INFO email input field is found on the job Page
+2020-09-07 11:30:17,980 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-07 11:30:18,028 INFO phone number input field is found on the job Page
+2020-09-07 11:30:18,097 INFO 087 216 3242 is entered on applicant name field
+2020-09-07 11:30:18,108 INFO send button is found on the job Page
+2020-09-07 11:30:18,150 INFO button 'SEND APPLICATION' clicked
+2020-09-07 11:30:19,565 INFO Error message item(s) found
+2020-09-07 11:30:19,605 ERROR Test Case Failed - Validation failed
+2020-09-07 11:30:19,606 INFO ***************************************             -E-N-D-             ***************************************

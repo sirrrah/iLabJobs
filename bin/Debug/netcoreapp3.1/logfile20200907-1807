@@ -1,0 +1,24 @@
+2020-09-07 18:07:19,824 INFO *************************************************************************************************
+2020-09-07 18:07:19,832 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-07 18:07:19,832 INFO *************************************************************************************************
+2020-09-07 18:07:22,710 INFO new driver instantiated
+2020-09-07 18:07:22,716 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-07 18:07:30,017 INFO Web application launched
+2020-09-07 18:07:30,048 INFO careers link is found on the Home Page
+2020-09-07 18:07:32,098 INFO link careers clicked from Home page
+2020-09-07 18:07:32,354 INFO 'South Africa' link is found on the Careers Page
+2020-09-07 18:07:33,775 INFO link South Africa clicked from Careers page
+2020-09-07 18:07:33,958 INFO First job post link is found on the Job Lists Page
+2020-09-07 18:07:35,632 INFO first job link clicked from South Africa jobs page
+2020-09-07 18:07:35,808 INFO 'Apply Online' button is found on the job Page
+2020-09-07 18:07:37,312 INFO 'Apply Online' button clicked from the job post page
+2020-09-07 18:07:37,519 INFO applicant name input field is found on the job Page
+2020-09-07 18:07:37,571 INFO Siphesihle Pangumso is entered in the applicant name field
+2020-09-07 18:07:37,581 INFO email input field is found on the job Page
+2020-09-07 18:07:37,655 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-07 18:07:37,739 INFO phone number input field is found on the job Page
+2020-09-07 18:07:37,865 INFO 079 704 8887 is entered on applicant name field
+2020-09-07 18:07:37,876 INFO send button is found on the job Page
+2020-09-07 18:07:39,313 INFO button 'SEND APPLICATION' clicked
+2020-09-07 18:07:39,504 INFO Error message item(s) found
+2020-09-07 18:07:39,915 INFO ***************************************             -E-N-D-             ***************************************
