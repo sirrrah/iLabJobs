@@ -1,0 +1,33 @@
+2020-09-09 21:50:01,035 INFO *************************************************************************************************
+2020-09-09 21:50:01,043 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-09 21:50:01,043 INFO *************************************************************************************************
+2020-09-09 21:50:04,173 INFO new driver instantiated
+2020-09-09 21:50:04,178 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-09 21:50:13,316 INFO Web application launched
+2020-09-09 21:50:13,332 INFO careers link is found on the Home Page - using xpath regex
+2020-09-09 21:50:15,748 INFO 'careers' link clicked in the Home page
+2020-09-09 21:50:16,215 INFO 'South Africa' link is found on the Careers Page - using xpath regex
+2020-09-09 21:50:18,285 INFO 'South Africa' link clicked in the Careers page
+2020-09-09 21:50:18,305 INFO First job post link is found on the Job Lists Page
+2020-09-09 21:50:20,552 INFO first job link clicked from South Africa jobs page
+2020-09-09 21:50:20,596 INFO 'Apply Online' button is found on the job Page
+2020-09-09 21:50:20,654 INFO 'Apply Online' button clicked from the job post page
+2020-09-09 21:50:21,053 INFO applicant name input field is found on the job Page
+2020-09-09 21:50:21,428 INFO Siphesihle Pangumso is entered in the applicant name field
+2020-09-09 21:50:21,445 INFO email input field is found on the job Page
+2020-09-09 21:50:21,823 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-09 21:50:21,823 INFO Generating phone number...
+2020-09-09 21:50:21,834 INFO phone number input field is found on the job Page
+2020-09-09 21:50:22,156 INFO 088 226 1103 is entered on applicant name field
+2020-09-09 21:50:22,169 INFO send button is found on the job Page
+2020-09-09 21:50:25,075 INFO button 'SEND APPLICATION' clicked
+2020-09-09 21:50:25,089 INFO Error message list item(s) found
+2020-09-09 21:50:25,101 INFO TestResult value set to PASS!
+2020-09-09 21:50:25,510 INFO ***************************************             -E-N-D-             ***************************************
+2020-09-09 21:50:28,685 INFO *************************************************************************************************
+2020-09-09 21:50:28,685 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-09 21:50:28,685 INFO *************************************************************************************************
+2020-09-09 21:50:34,902 INFO new driver instantiated
+2020-09-09 21:50:36,944 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-09 21:50:53,426 INFO Web application launched
+2020-09-09 21:50:55,469 INFO careers link is found on the Home Page - using xpath regex

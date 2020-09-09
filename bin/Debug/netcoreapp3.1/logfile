@@ -1,12 +1,4 @@
-2020-09-09 17:16:02,550 INFO applicant name input field is found on the job Page
-2020-09-09 17:16:06,995 INFO Sihle Pangumso is entered in the applicant name field
-2020-09-09 17:16:09,069 INFO email input field is found on the job Page
-2020-09-09 17:16:13,608 INFO automationAssessment@iLABQuality.com is entered in the email field
-2020-09-09 17:16:13,609 INFO Generating phone number...
-2020-09-09 17:16:15,663 INFO phone number input field is found on the job Page
-2020-09-09 17:16:20,197 INFO 060 912 2160 is entered on applicant name field
-2020-09-09 17:16:22,260 INFO send button is found on the job Page
-2020-09-09 17:16:31,012 INFO button 'SEND APPLICATION' clicked
-2020-09-09 17:16:33,113 INFO Error message list item(s) found
-2020-09-09 17:16:35,183 INFO TestResult value set to PASS!
-2020-09-09 17:16:37,578 INFO ***************************************             -E-N-D-             ***************************************
+2020-09-09 21:52:00,798 INFO button 'SEND APPLICATION' clicked
+2020-09-09 21:52:02,838 INFO Error message list item(s) found
+2020-09-09 21:52:04,879 INFO TestResult value set to PASS!
+2020-09-09 21:52:07,003 INFO ***************************************             -E-N-D-             ***************************************

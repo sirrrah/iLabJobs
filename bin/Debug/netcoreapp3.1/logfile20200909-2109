@@ -1,0 +1,10 @@
+2020-09-09 21:09:05,811 INFO *************************************************************************************************
+2020-09-09 21:09:05,819 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-09 21:09:05,819 INFO *************************************************************************************************
+2020-09-09 21:09:08,908 INFO new driver instantiated
+2020-09-09 21:09:08,913 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-09 21:09:17,549 INFO Web application launched
+2020-09-09 21:09:17,605 ERROR careers link is not found on the Home Page
+2020-09-09 21:09:17,794 ERROR invalid selector: Unable to locate an element with the xpath expression //a[contains(@href,’careers’)] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(@href,’careers’)]' is not a valid XPath expression.
+  (Session info: chrome=85.0.4183.83)

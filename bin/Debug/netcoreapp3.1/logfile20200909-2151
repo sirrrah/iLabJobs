@@ -1,0 +1,15 @@
+2020-09-09 21:51:01,305 INFO 'careers' link clicked in the Home page
+2020-09-09 21:51:05,570 INFO 'South Africa' link is found on the Careers Page - using xpath regex
+2020-09-09 21:51:13,643 INFO 'South Africa' link clicked in the Careers page
+2020-09-09 21:51:15,679 INFO First job post link is found on the Job Lists Page
+2020-09-09 21:51:24,830 INFO first job link clicked from South Africa jobs page
+2020-09-09 21:51:26,870 INFO 'Apply Online' button is found on the job Page
+2020-09-09 21:51:29,124 INFO 'Apply Online' button clicked from the job post page
+2020-09-09 21:51:33,289 INFO applicant name input field is found on the job Page
+2020-09-09 21:51:37,502 INFO Sihle Pangumso is entered in the applicant name field
+2020-09-09 21:51:39,542 INFO email input field is found on the job Page
+2020-09-09 21:51:43,714 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-09 21:51:43,714 INFO Generating phone number...
+2020-09-09 21:51:45,758 INFO phone number input field is found on the job Page
+2020-09-09 21:51:49,928 INFO 086 642 2758 is entered on applicant name field
+2020-09-09 21:51:51,966 INFO send button is found on the job Page

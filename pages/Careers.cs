@@ -15,13 +15,13 @@ namespace iLabJobs.pages
         {
             try
             {
-                element = driver.FindElement(By.XPath("//*[@href='/careers/south-africa/']"));
-                Log.Info("'South Africa' link is found on the Careers Page");
-                test.Log(Status.Info, "'South Africa' link is found on the Careers Page");
+                //element = driver.FindElement(By.XPath("//*[@href='/careers/south-africa/']"));
+                element = driver.FindElement(By.XPath("//a[contains(@href,'south-africa')]"));
+                Log.Info("'South Africa' link is found on the Careers Page - using xpath regex");
+                test.Log(Status.Info, "'South Africa' link is found on the Careers Page - using xpath regex");
             }
             catch (Exception ex)
             {
-
                 Log.Error("'South Africa' link is not found on the Careers Page");
                 test.Log(Status.Error, "'South Africa' link is not found on the Careers Page");
                 throw (ex);

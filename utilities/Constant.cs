@@ -9,7 +9,7 @@ namespace iLabJobs.utilities
 		public static readonly string URL = "https://www.ilabquality.com";
 		public static readonly string FILE_TEST_DATA = @"A:\Work\Visual Studio\iLabJobs\Data\test_data.xlsx";
 		public static readonly string PATH_SCREENSHOT = @"A:\Work\Visual Studio\iLabJobs\Reports\Screenshots\";
-		public static readonly string FILE_HTML_REPORT = @"A:\Work\Visual Studio\iLabJobs\Reports\Extent_Report.html";
+		public static readonly string PATH_HTML_REPORT = @"A:\Work\Visual Studio\iLabJobs\Reports\HTML\";
 		
 		//Get data sheet row number to use
 		//static readonly int  Row = TestCase_01.TestCaseRow; 

@@ -1,0 +1,12 @@
+2020-09-09 21:40:04,465 INFO new driver instantiated
+2020-09-09 21:40:06,518 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-09 21:40:19,144 INFO Web application launched
+2020-09-09 21:40:21,187 INFO careers link is found on the Home Page
+2020-09-09 21:40:26,985 INFO 'careers' link clicked in the Home page
+2020-09-09 21:40:31,260 INFO 'South Africa' link is found on the Careers Page
+2020-09-09 21:40:39,499 INFO 'South Africa' link clicked in the Careers page
+2020-09-09 21:40:41,543 INFO First job post link is found on the Job Lists Page
+2020-09-09 21:40:49,024 INFO first job link clicked from South Africa jobs page
+2020-09-09 21:40:51,068 INFO 'Apply Online' button is found on the job Page
+2020-09-09 21:40:53,334 INFO 'Apply Online' button clicked from the job post page
+2020-09-09 21:40:57,467 INFO applicant name input field is found on the job Page

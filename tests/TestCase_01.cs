@@ -49,7 +49,8 @@ namespace iLabJobs.tests
             ExcelDataIO.PopulateInCollection(@"A:\Work\Visual Studio\iLabJobs\Data\test_data.xlsx");
             
             // Extent Report declaration
-            ExtentHtmlReporter reporter = new ExtentHtmlReporter(Constant.FILE_HTML_REPORT);
+            // Folders unique because HTML Reporter only accepts path and creates 'index.html' instead of allowing a custom file name
+            ExtentHtmlReporter reporter = new ExtentHtmlReporter(Constant.PATH_HTML_REPORT + Constant.GetTestCaseName(TestCaseRow) + @"\");
             extent.AttachReporter(reporter);
             test = extent.CreateTest(TestCaseName, "Test the 'upload at least one file' error using " + Constant.GetBrowser(TestCaseRow) + " browser");
             

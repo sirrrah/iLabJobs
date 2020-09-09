@@ -1,0 +1,16 @@
+2020-09-09 20:31:02,302 INFO 'careers' link clicked in the Home page
+2020-09-09 20:31:06,559 INFO 'South Africa' link is found on the Careers Page
+2020-09-09 20:31:14,194 INFO 'South Africa' link clicked in the Careers page
+2020-09-09 20:31:16,244 INFO First job post link is found on the Job Lists Page
+2020-09-09 20:31:24,568 INFO first job link clicked from South Africa jobs page
+2020-09-09 20:31:26,616 INFO 'Apply Online' button is found on the job Page
+2020-09-09 20:31:28,930 INFO 'Apply Online' button clicked from the job post page
+2020-09-09 20:31:33,093 INFO applicant name input field is found on the job Page
+2020-09-09 20:31:37,242 INFO Sihle Pangumso is entered in the applicant name field
+2020-09-09 20:31:39,272 INFO email input field is found on the job Page
+2020-09-09 20:31:43,443 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-09 20:31:43,444 INFO Generating phone number...
+2020-09-09 20:31:45,477 INFO phone number input field is found on the job Page
+2020-09-09 20:31:49,663 INFO 066 109 1522 is entered on applicant name field
+2020-09-09 20:31:51,682 INFO send button is found on the job Page
+2020-09-09 20:31:59,752 INFO button 'SEND APPLICATION' clicked
