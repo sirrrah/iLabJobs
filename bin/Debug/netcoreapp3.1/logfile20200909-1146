@@ -1,0 +1,9 @@
+2020-09-09 11:46:00,350 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-09 11:46:00,358 INFO Generating phone number...
+2020-09-09 11:46:00,402 INFO phone number input field is found on the job Page
+2020-09-09 11:46:01,053 INFO 064 565 6370 is entered on applicant name field
+2020-09-09 11:46:01,080 INFO send button is found on the job Page
+2020-09-09 11:46:04,961 INFO button 'SEND APPLICATION' clicked
+2020-09-09 11:46:04,990 INFO Error message list item(s) found
+2020-09-09 11:46:05,020 INFO TestResult value set to PASS!
+2020-09-09 11:46:05,613 INFO ***************************************             -E-N-D-             ***************************************

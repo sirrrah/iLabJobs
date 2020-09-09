@@ -1,0 +1,26 @@
+2020-09-09 11:56:05,047 INFO *************************************************************************************************
+2020-09-09 11:56:05,057 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-09 11:56:05,057 INFO *************************************************************************************************
+2020-09-09 11:56:08,605 INFO new driver instantiated
+2020-09-09 11:56:08,615 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-09 11:56:15,463 INFO Web application launched
+2020-09-09 11:56:15,537 INFO careers link is not found on the Home Page
+2020-09-09 11:56:17,374 INFO 'careers' link clicked in the Home page
+2020-09-09 11:56:18,264 INFO 'South Africa' link is found on the Careers Page
+2020-09-09 11:56:21,644 INFO 'South Africa' link clicked in the Careers page
+2020-09-09 11:56:21,844 INFO First job post link is found on the Job Lists Page
+2020-09-09 11:56:24,810 INFO first job link clicked from South Africa jobs page
+2020-09-09 11:56:24,837 INFO 'Apply Online' button is found on the job Page
+2020-09-09 11:56:25,268 INFO 'Apply Online' button clicked from the job post page
+2020-09-09 11:56:25,740 INFO applicant name input field is found on the job Page
+2020-09-09 11:56:26,235 INFO Siphesihle Pangumso is entered in the applicant name field
+2020-09-09 11:56:26,250 INFO email input field is found on the job Page
+2020-09-09 11:56:26,825 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-09 11:56:26,825 INFO Generating phone number...
+2020-09-09 11:56:26,840 INFO phone number input field is found on the job Page
+2020-09-09 11:56:27,322 INFO 074 867 4445 is entered on applicant name field
+2020-09-09 11:56:27,336 INFO send button is found on the job Page
+2020-09-09 11:56:31,051 INFO button 'SEND APPLICATION' clicked
+2020-09-09 11:56:31,104 INFO Error message list item(s) found
+2020-09-09 11:56:31,155 INFO TestResult value set to PASS!
+2020-09-09 11:56:31,707 INFO ***************************************             -E-N-D-             ***************************************

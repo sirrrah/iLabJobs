@@ -1,0 +1,35 @@
+2020-09-08 22:57:20,279 INFO *************************************************************************************************
+2020-09-08 22:57:20,286 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-08 22:57:20,286 INFO *************************************************************************************************
+2020-09-08 22:57:23,242 INFO new driver instantiated
+2020-09-08 22:57:23,248 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-08 22:57:30,289 INFO Web application launched
+2020-09-08 22:57:30,324 INFO careers link is not found on the Home Page
+2020-09-08 22:57:33,434 INFO 'careers' link clicked in the Home page
+2020-09-08 22:57:33,972 INFO 'South Africa' link is found on the Careers Page
+2020-09-08 22:57:35,967 INFO 'South Africa' link clicked in the Careers page
+2020-09-08 22:57:35,986 INFO First job post link is found on the Job Lists Page
+2020-09-08 22:57:38,037 INFO first job link clicked from South Africa jobs page
+2020-09-08 22:57:38,051 INFO 'Apply Online' button is found on the job Page
+2020-09-08 22:57:38,100 INFO 'Apply Online' button clicked from the job post page
+2020-09-08 22:57:38,465 INFO applicant name input field is found on the job Page
+2020-09-08 22:57:38,834 INFO Siphesihle Pangumso is entered in the applicant name field
+2020-09-08 22:57:38,846 INFO email input field is found on the job Page
+2020-09-08 22:57:39,183 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-08 22:57:39,184 INFO Generating phone number...
+2020-09-08 22:57:39,196 INFO phone number input field is found on the job Page
+2020-09-08 22:57:39,524 INFO 081 870 3698 is entered on applicant name field
+2020-09-08 22:57:39,534 INFO send button is found on the job Page
+2020-09-08 22:57:41,213 INFO button 'SEND APPLICATION' clicked
+2020-09-08 22:57:41,235 INFO Error message list item(s) found
+2020-09-08 22:57:41,247 INFO TestResult value set to PASS!
+2020-09-08 22:57:42,127 INFO ***************************************             -E-N-D-             ***************************************
+2020-09-08 22:57:45,274 INFO *************************************************************************************************
+2020-09-08 22:57:45,274 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-08 22:57:45,274 INFO *************************************************************************************************
+2020-09-08 22:57:48,400 INFO new driver instantiated
+2020-09-08 22:57:48,408 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-08 22:57:55,101 INFO Web application launched
+2020-09-08 22:57:55,121 INFO careers link is not found on the Home Page
+2020-09-08 22:57:58,989 INFO 'careers' link clicked in the Home page
+2020-09-08 22:57:59,460 INFO 'South Africa' link is found on the Careers Page

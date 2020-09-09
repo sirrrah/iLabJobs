@@ -1,0 +1,16 @@
+2020-09-09 12:51:22,262 ERROR Class ExcelData | Method ReadData | Exception desc : Object reference not set to an instance of an object.
+2020-09-09 12:51:22,299 ERROR Class ExcelData | Method ReadData | Exception desc : Object reference not set to an instance of an object.
+2020-09-09 12:51:22,334 ERROR Class ExcelData | Method ReadData | Exception desc : Object reference not set to an instance of an object.
+2020-09-09 12:51:22,365 ERROR Class ExcelData | Method ReadData | Exception desc : Object reference not set to an instance of an object.
+2020-09-09 12:51:22,389 ERROR Class ExcelData | Method ReadData | Exception desc : Object reference not set to an instance of an object.
+2020-09-09 12:51:22,413 ERROR Class ExcelData | Method ReadData | Exception desc : Object reference not set to an instance of an object.
+2020-09-09 12:51:22,416 INFO *************************************************************************************************
+2020-09-09 12:51:22,416 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-09 12:51:22,416 INFO *************************************************************************************************
+2020-09-09 12:51:22,882 ERROR Class Utils | Method OpenBrowser | Exception desc : Object reference not set to an instance of an object.
+2020-09-09 12:51:43,920 INFO ***************************************             -E-N-D-             ***************************************
+2020-09-09 12:51:53,603 INFO *************************************************************************************************
+2020-09-09 12:51:53,603 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-09 12:51:53,603 INFO *************************************************************************************************
+2020-09-09 12:51:53,674 ERROR Class Utils | Method OpenBrowser | Exception desc : Object reference not set to an instance of an object.
+2020-09-09 12:51:56,320 INFO ***************************************             -E-N-D-             ***************************************

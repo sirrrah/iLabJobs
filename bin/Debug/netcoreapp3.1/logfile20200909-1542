@@ -1,0 +1,6 @@
+2020-09-09 15:42:03,969 INFO 067 925 9610 is entered on applicant name field
+2020-09-09 15:42:06,032 INFO send button is found on the job Page
+2020-09-09 15:42:14,635 INFO button 'SEND APPLICATION' clicked
+2020-09-09 15:42:16,706 INFO Error message list item(s) found
+2020-09-09 15:42:18,801 INFO TestResult value set to PASS!
+2020-09-09 15:42:22,114 INFO ***************************************             -E-N-D-             ***************************************

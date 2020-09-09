@@ -1,0 +1,13 @@
+2020-09-08 13:58:04,111 INFO *************************************************************************************************
+2020-09-08 13:58:04,148 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-08 13:58:04,149 INFO *************************************************************************************************
+2020-09-08 13:58:07,604 INFO new driver instantiated
+2020-09-08 13:58:07,620 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-08 13:58:18,565 INFO Web application launched
+2020-09-08 13:58:18,698 INFO careers link is not found on the Home Page
+2020-09-08 13:58:27,062 INFO careers link clicked in the Home page
+2020-09-08 13:58:27,603 INFO 'South Africa' link is found on the Careers Page
+2020-09-08 13:58:45,663 INFO South Africa link clicked in the Careers page
+2020-09-08 13:58:46,196 INFO First job post link is found on the Job Lists Page
+2020-09-08 13:58:51,072 INFO first job link clicked from South Africa jobs page
+2020-09-08 13:58:51,531 INFO 'Apply Online' button is found on the job Page

@@ -1,0 +1,29 @@
+2020-09-09 13:48:18,378 INFO *************************************************************************************************
+2020-09-09 13:48:18,390 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-09 13:48:18,391 INFO *************************************************************************************************
+2020-09-09 13:48:22,503 INFO new driver instantiated
+2020-09-09 13:48:22,529 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-09 13:48:29,455 INFO Web application launched
+2020-09-09 13:48:29,512 INFO careers link is not found on the Home Page
+2020-09-09 13:48:31,759 INFO 'careers' link clicked in the Home page
+2020-09-09 13:48:32,481 INFO 'South Africa' link is found on the Careers Page
+2020-09-09 13:48:36,013 INFO 'South Africa' link clicked in the Careers page
+2020-09-09 13:48:36,032 INFO First job post link is found on the Job Lists Page
+2020-09-09 13:48:39,049 INFO first job link clicked from South Africa jobs page
+2020-09-09 13:48:39,096 INFO 'Apply Online' button is found on the job Page
+2020-09-09 13:48:39,493 INFO 'Apply Online' button clicked from the job post page
+2020-09-09 13:48:40,065 INFO applicant name input field is found on the job Page
+2020-09-09 13:48:40,781 INFO Siphesihle Pangumso is entered in the applicant name field
+2020-09-09 13:48:40,807 INFO email input field is found on the job Page
+2020-09-09 13:48:41,302 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-09 13:48:41,303 INFO Generating phone number...
+2020-09-09 13:48:41,322 INFO phone number input field is found on the job Page
+2020-09-09 13:48:41,770 INFO 082 160 2719 is entered on applicant name field
+2020-09-09 13:48:41,793 INFO send button is found on the job Page
+2020-09-09 13:48:45,474 INFO button 'SEND APPLICATION' clicked
+2020-09-09 13:48:45,537 INFO Error message list item(s) found
+2020-09-09 13:48:45,588 INFO TestResult value set to PASS!
+2020-09-09 13:48:46,627 INFO ***************************************             -E-N-D-             ***************************************
+2020-09-09 13:48:56,918 INFO *************************************************************************************************
+2020-09-09 13:48:56,918 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-09 13:48:56,918 INFO *************************************************************************************************

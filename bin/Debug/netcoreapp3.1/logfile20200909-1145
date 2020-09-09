@@ -1,0 +1,38 @@
+2020-09-09 11:45:07,085 INFO Web application launched
+2020-09-09 11:45:07,191 INFO careers link is not found on the Home Page
+2020-09-09 11:45:08,923 INFO 'careers' link clicked in the Home page
+2020-09-09 11:45:10,555 INFO 'South Africa' link is found on the Careers Page
+2020-09-09 11:45:12,912 INFO 'South Africa' link clicked in the Careers page
+2020-09-09 11:45:12,933 INFO First job post link is found on the Job Lists Page
+2020-09-09 11:45:16,087 INFO first job link clicked from South Africa jobs page
+2020-09-09 11:45:16,386 INFO 'Apply Online' button is found on the job Page
+2020-09-09 11:45:16,514 INFO 'Apply Online' button clicked from the job post page
+2020-09-09 11:45:17,374 INFO applicant name input field is found on the job Page
+2020-09-09 11:45:17,971 INFO Siphesihle Pangumso is entered in the applicant name field
+2020-09-09 11:45:17,992 INFO email input field is found on the job Page
+2020-09-09 11:45:18,600 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-09 11:45:18,601 INFO Generating phone number...
+2020-09-09 11:45:18,624 INFO phone number input field is found on the job Page
+2020-09-09 11:45:19,157 INFO 082 678 3829 is entered on applicant name field
+2020-09-09 11:45:19,187 INFO send button is found on the job Page
+2020-09-09 11:45:22,451 INFO button 'SEND APPLICATION' clicked
+2020-09-09 11:45:22,477 INFO Error message list item(s) found
+2020-09-09 11:45:22,498 INFO TestResult value set to PASS!
+2020-09-09 11:45:23,938 INFO ***************************************             -E-N-D-             ***************************************
+2020-09-09 11:45:33,179 INFO *************************************************************************************************
+2020-09-09 11:45:33,180 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-09 11:45:33,180 INFO *************************************************************************************************
+2020-09-09 11:45:36,684 INFO new driver instantiated
+2020-09-09 11:45:36,694 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-09 11:45:44,474 INFO Web application launched
+2020-09-09 11:45:44,537 INFO careers link is not found on the Home Page
+2020-09-09 11:45:48,747 INFO 'careers' link clicked in the Home page
+2020-09-09 11:45:49,712 INFO 'South Africa' link is found on the Careers Page
+2020-09-09 11:45:54,238 INFO 'South Africa' link clicked in the Careers page
+2020-09-09 11:45:54,271 INFO First job post link is found on the Job Lists Page
+2020-09-09 11:45:58,329 INFO first job link clicked from South Africa jobs page
+2020-09-09 11:45:58,350 INFO 'Apply Online' button is found on the job Page
+2020-09-09 11:45:58,449 INFO 'Apply Online' button clicked from the job post page
+2020-09-09 11:45:59,031 INFO applicant name input field is found on the job Page
+2020-09-09 11:45:59,594 INFO Siphesihle Pangumso is entered in the applicant name field
+2020-09-09 11:45:59,609 INFO email input field is found on the job Page

@@ -1,0 +1,17 @@
+2020-09-08 15:11:21,220 INFO *************************************************************************************************
+2020-09-08 15:11:21,227 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-08 15:11:21,227 INFO *************************************************************************************************
+2020-09-08 15:11:24,104 INFO new driver instantiated
+2020-09-08 15:11:24,110 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-08 15:11:31,441 INFO Web application launched
+2020-09-08 15:11:31,470 INFO careers link is not found on the Home Page
+2020-09-08 15:11:32,859 INFO 'careers' link clicked in the Home page
+2020-09-08 15:11:33,061 INFO 'South Africa' link is found on the Careers Page
+2020-09-08 15:11:34,417 INFO 'South Africa' link clicked in the Careers page
+2020-09-08 15:11:34,594 INFO First job post link is found on the Job Lists Page
+2020-09-08 15:11:36,322 INFO first job link clicked from South Africa jobs page
+2020-09-08 15:11:36,494 INFO 'Apply Online' button is found on the job Page
+2020-09-08 15:11:36,526 INFO 'Apply Online' button clicked from the job post page
+2020-09-08 15:11:36,541 INFO applicant name input field is found on the job Page
+2020-09-08 15:11:46,929 ERROR element not interactable
+  (Session info: chrome=85.0.4183.83)

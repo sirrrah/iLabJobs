@@ -1,0 +1,9 @@
+2020-09-08 23:19:21,743 INFO *************************************************************************************************
+2020-09-08 23:19:21,749 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-08 23:19:21,749 INFO *************************************************************************************************
+2020-09-08 23:19:28,124 INFO new driver instantiated
+2020-09-08 23:19:30,172 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-08 23:19:44,742 INFO Web application launched
+2020-09-08 23:19:46,835 INFO careers link is not found on the Home Page
+2020-09-08 23:19:52,949 INFO 'careers' link clicked in the Home page
+2020-09-08 23:19:57,229 INFO 'South Africa' link is found on the Careers Page

@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using AventStack.ExtentReports;
+using OpenQA.Selenium;
 
 namespace iLabJobs.pages
 {
@@ -6,12 +7,12 @@ namespace iLabJobs.pages
     {
         public static IWebDriver driver = null;
         public static bool TestResult;
+        public static ExtentTest test;
 
-        public BaseClass(IWebDriver driver)
+        public BaseClass(IWebDriver driver, ExtentTest test)
         {
             BaseClass.driver = driver;
-            BaseClass.TestResult = true;
+            BaseClass.test = test;
         }
-
     }
 }

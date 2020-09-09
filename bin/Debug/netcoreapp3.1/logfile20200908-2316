@@ -1,0 +1,21 @@
+2020-09-08 23:16:01,035 INFO Web application launched
+2020-09-08 23:16:01,068 INFO careers link is not found on the Home Page
+2020-09-08 23:16:03,001 INFO 'careers' link clicked in the Home page
+2020-09-08 23:16:03,507 INFO 'South Africa' link is found on the Careers Page
+2020-09-08 23:16:05,239 INFO 'South Africa' link clicked in the Careers page
+2020-09-08 23:16:05,255 INFO First job post link is found on the Job Lists Page
+2020-09-08 23:16:07,289 INFO first job link clicked from South Africa jobs page
+2020-09-08 23:16:07,313 INFO 'Apply Online' button is found on the job Page
+2020-09-08 23:16:07,378 INFO 'Apply Online' button clicked from the job post page
+2020-09-08 23:16:07,756 INFO applicant name input field is found on the job Page
+2020-09-08 23:16:08,107 INFO Siphesihle Pangumso is entered in the applicant name field
+2020-09-08 23:16:08,117 INFO email input field is found on the job Page
+2020-09-08 23:16:08,615 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-08 23:16:08,615 INFO Generating phone number...
+2020-09-08 23:16:08,627 INFO phone number input field is found on the job Page
+2020-09-08 23:16:08,946 INFO 086 604 3995 is entered on applicant name field
+2020-09-08 23:16:08,957 INFO send button is found on the job Page
+2020-09-08 23:16:10,844 INFO button 'SEND APPLICATION' clicked
+2020-09-08 23:16:10,856 INFO Error message list item(s) found
+2020-09-08 23:16:10,869 INFO TestResult value set to PASS!
+2020-09-08 23:16:11,268 INFO ***************************************             -E-N-D-             ***************************************

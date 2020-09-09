@@ -1,0 +1,52 @@
+2020-09-08 23:42:09,803 INFO *************************************************************************************************
+2020-09-08 23:42:09,809 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-08 23:42:09,809 INFO *************************************************************************************************
+2020-09-08 23:42:12,641 INFO new driver instantiated
+2020-09-08 23:42:12,647 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-08 23:42:19,372 INFO Web application launched
+2020-09-08 23:42:19,406 INFO careers link is not found on the Home Page
+2020-09-08 23:42:21,177 INFO 'careers' link clicked in the Home page
+2020-09-08 23:42:21,731 INFO 'South Africa' link is found on the Careers Page
+2020-09-08 23:42:24,298 INFO 'South Africa' link clicked in the Careers page
+2020-09-08 23:42:24,325 INFO First job post link is found on the Job Lists Page
+2020-09-08 23:42:26,561 INFO first job link clicked from South Africa jobs page
+2020-09-08 23:42:26,635 INFO 'Apply Online' button is found on the job Page
+2020-09-08 23:42:26,732 INFO 'Apply Online' button clicked from the job post page
+2020-09-08 23:42:27,174 INFO applicant name input field is found on the job Page
+2020-09-08 23:42:27,521 INFO Siphesihle Pangumso is entered in the applicant name field
+2020-09-08 23:42:27,532 INFO email input field is found on the job Page
+2020-09-08 23:42:27,911 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-08 23:42:27,912 INFO Generating phone number...
+2020-09-08 23:42:27,922 INFO phone number input field is found on the job Page
+2020-09-08 23:42:28,248 INFO 068 596 5967 is entered on applicant name field
+2020-09-08 23:42:28,259 INFO send button is found on the job Page
+2020-09-08 23:42:30,325 INFO button 'SEND APPLICATION' clicked
+2020-09-08 23:42:30,356 INFO Error message list item(s) found
+2020-09-08 23:42:30,367 INFO TestResult value set to PASS!
+2020-09-08 23:42:31,176 INFO ***************************************             -E-N-D-             ***************************************
+2020-09-08 23:42:34,293 INFO *************************************************************************************************
+2020-09-08 23:42:34,293 INFO * ---------------------------------------  TestCase_01 ---------------------------------------- *
+2020-09-08 23:42:34,293 INFO *************************************************************************************************
+2020-09-08 23:42:37,361 INFO new driver instantiated
+2020-09-08 23:42:37,365 INFO Implicit wait applied on the driver for 10 seconds
+2020-09-08 23:42:45,670 INFO Web application launched
+2020-09-08 23:42:45,697 INFO careers link is not found on the Home Page
+2020-09-08 23:42:48,460 INFO 'careers' link clicked in the Home page
+2020-09-08 23:42:48,957 INFO 'South Africa' link is found on the Careers Page
+2020-09-08 23:42:51,012 INFO 'South Africa' link clicked in the Careers page
+2020-09-08 23:42:51,029 INFO First job post link is found on the Job Lists Page
+2020-09-08 23:42:53,213 INFO first job link clicked from South Africa jobs page
+2020-09-08 23:42:53,238 INFO 'Apply Online' button is found on the job Page
+2020-09-08 23:42:53,302 INFO 'Apply Online' button clicked from the job post page
+2020-09-08 23:42:53,671 INFO applicant name input field is found on the job Page
+2020-09-08 23:42:54,079 INFO Siphesihle Pangumso is entered in the applicant name field
+2020-09-08 23:42:54,088 INFO email input field is found on the job Page
+2020-09-08 23:42:54,433 INFO automationAssessment@iLABQuality.com is entered in the email field
+2020-09-08 23:42:54,433 INFO Generating phone number...
+2020-09-08 23:42:54,442 INFO phone number input field is found on the job Page
+2020-09-08 23:42:54,776 INFO 063 351 5341 is entered on applicant name field
+2020-09-08 23:42:54,784 INFO send button is found on the job Page
+2020-09-08 23:42:56,474 INFO button 'SEND APPLICATION' clicked
+2020-09-08 23:42:56,490 INFO Error message list item(s) found
+2020-09-08 23:42:56,502 INFO TestResult value set to PASS!
+2020-09-08 23:42:56,936 INFO ***************************************             -E-N-D-             ***************************************

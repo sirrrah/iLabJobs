@@ -32,9 +32,9 @@ namespace iLabJobs.utilities
 
         public class Datacollection
         {
-            public int rowNumber { get; set; }
-            public string colName { get; set; }
-            public string colValue { get; set; }
+            public int RowNumber { get; set; }
+            public string ColName { get; set; }
+            public string ColValue { get; set; }
         }
 
         static readonly List<Datacollection> dataCollection = new List<Datacollection>();
@@ -49,9 +49,9 @@ namespace iLabJobs.utilities
                 {
                     Datacollection dataTable = new Datacollection()
                     {
-                        rowNumber = row,
-                        colName = table.Columns[col].ColumnName,
-                        colValue = table.Rows[row - 1][col].ToString()
+                        RowNumber = row,
+                        ColName = table.Columns[col].ColumnName,
+                        ColValue = table.Rows[row - 1][col].ToString()
                     };
                     dataCollection.Add(dataTable);
                 }
@@ -62,10 +62,10 @@ namespace iLabJobs.utilities
         {
             try
             {
-                //Retriving Data using LINQ to reduce much of iterations
+                //Retrive Data using LINQ to reduce much of iterations
                 string data = (from colData in dataCollection
-                               where colData.colName == columnName && colData.rowNumber == rowNumber
-                               select colData.colValue).SingleOrDefault();
+                               where colData.ColName == columnName && colData.RowNumber == rowNumber
+                               select colData.ColValue).SingleOrDefault();
 
                 return data.ToString();
             }
@@ -77,7 +77,7 @@ namespace iLabJobs.utilities
 
         }
 
-        public static void WriteData(string result, int rowNumber, int colNumber)
+        public static void WriteData(string value, int rowNumber, int colNumber)
         {
 
             try
@@ -94,13 +94,36 @@ namespace iLabJobs.utilities
                 worksheet.Cells[rowNumber + 1, colNumber - 1].Value = DateTime.Now.ToString();
                 //Change the date cell - sets results for the current test
                 //row incremented because excel sheet has header
-                worksheet.Cells[rowNumber + 1, colNumber].Value = result;
+                worksheet.Cells[rowNumber + 1, colNumber].Value = value;
                 //save changes
                 pack.Save();
             }
             catch (Exception e)
             {
                 Log.Error("Class ExcelData | Method WriteData | Exception desc : " + e.Message);
+                throw e;
+            }
+        }
+        
+        public static string ReadData(int rowNumber, int colNumber)
+        {
+
+            try
+            {
+                //Avoids -> ExcelPackage License Exception
+                ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+
+                using var pack = new ExcelPackage(new FileInfo(Constant.FILE_TEST_DATA));
+
+                ExcelWorkbook WorkBook = pack.Workbook;
+                ExcelWorksheet worksheet = WorkBook.Worksheets.First();
+                //Change the date cell - sets results for the current test
+                //row incremented because excel sheet has header
+                return worksheet.Cells[rowNumber + 1, colNumber].Value.ToString();
+            }
+            catch (Exception e)
+            {
+                Log.Error("Class ExcelData | Method ReadData | Exception desc : " + e.Message);
                 throw e;
             }
         }

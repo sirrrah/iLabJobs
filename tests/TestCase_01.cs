@@ -5,6 +5,8 @@
 //____________________________________________________________________________
 
 using System;
+using AventStack.ExtentReports;
+using AventStack.ExtentReports.Reporter;
 using iLabJobs.actions;
 using iLabJobs.pages;
 using iLabJobs.utilities;
@@ -15,47 +17,71 @@ namespace iLabJobs.tests
 {
     // Reuseable test case against a variaty of browsers and user input.
     // NUnit Test case pattern divides a test into three parts.
-    // SetUp Method is the prerequisite and code will always be the same for every test.
+    // Below parameter passed is the row number from Excel Data Sheet: 1 - chrome, 2 - firefox
+    [TestFixture(1)]
+    [TestFixture(2)]
     public class TestCase_01
     {
         IWebDriver driver;
         // The row from Test Data Sheet to run the test from
-        public static readonly int TestCaseRow = 1;
+        public static int TestCaseRow;
+        readonly ExtentReports extent = new ExtentReports();
+        ExtentTest test;
+
+        // Constructor necessary for the TestTexture parameterization
+        public TestCase_01(int _TestCaseRow)
+        {
+            TestCaseRow = _TestCaseRow;
+        }
 
         [SetUp]
         public void Before()
         {
-            // Start printing the logs + the Test Case name
+            // Refine the test case name from the full class name
+            string TestCaseName = Utils.GetTestCaseName(this.ToString());
+
+            // Start (prettified) printing of logs
             // for log4net to work "[assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config")]" must be added to AssemblyInfo.cs
-            Log.StartTestCase(Utils.GetTestCaseName(this.ToString()));
+            Log.StartTestCase(TestCaseName);
 
             // Set up the Test Data Excel file using file path
-            // I'd use Constant.FILE_TEST_DATA as parameter but throws 'NullReferenceException: Object reference not set to an instance of an object'
+            // I'd pass Constant.FILE_TEST_DATA but throws 'NullReferenceException: Object reference not set to an instance of an object'
             ExcelDataIO.PopulateInCollection(@"A:\Work\Visual Studio\iLabJobs\Data\test_data.xlsx");
+            
+            // Extent Report declaration
+            ExtentHtmlReporter reporter = new ExtentHtmlReporter(Constant.FILE_HTML_REPORT);
+            extent.AttachReporter(reporter);
+            test = extent.CreateTest(TestCaseName, "Test the 'upload at least one file' error using " + Constant.GetBrowser(TestCaseRow) + " browser");
+            
+            test.Log(Status.Info, "****************** EXECUTING " + TestCaseName + " TEST ******************");
 
             // Launch the browser, this will take the Browser Type from Test Data Sheet 
-            driver = Utils.OpenBrowser();
+            driver = Utils.OpenBrowser(TestCaseRow);
+            test.Log(Status.Info, "Browswer launched and visited " + Constant.URL);
 
             // Initialize the Base Class for the web driver
             // Web driver also inherited by the Page classes and/or Module Actions
-            new BaseClass(driver);
+            new BaseClass(driver, test);
         }
 
         [Test]
-        public void Main()
+        public void TestUploadFile()
         {
             // Catches exceptions thrown from any class or method
             try
             {
                 // Navigates to a country's job vacancies, South Africa, in this case 
                 CountrySelection.Execute();
+                test.Pass("Country selection for available jobs successful");
 
                 // Selects Job posts, only the first one in the list in this case 
                 JobPostSelection.Execute();
+                test.Pass("job post selection successful");
 
-                // Implements the job application process by filling the application form
+                // Implements the job application process of filling the application form
                 // Retrieves user information from excel data sheet to fill the application
-                JobApplication.Execute();
+                JobApplication.Execute(TestCaseRow);
+                test.Pass("job application successful");
 
                 // Validates whether the test case passes or fails based on the error message returned
                 Validation.Execute();
@@ -80,6 +106,8 @@ namespace iLabJobs.tests
                 ExcelDataIO.WriteData("Fail", TestCaseRow, Constant.COLUMN_RESULT);
                 // This will print the error log message
                 Log.Error(e.Message);
+                test.Log(Status.Error, e.Message);
+
                 // Exception to fail the test completely in the NUnit results
                 throw e;
             }
@@ -90,6 +118,9 @@ namespace iLabJobs.tests
         {
             //print test logs end
             Log.EndTestCase();
+            test.Log(Status.Info, "****************** TEST COMPLETE ******************");
+            //save report & close resources
+            extent.Flush();
             //close opened driver
             driver.Quit();
         }
